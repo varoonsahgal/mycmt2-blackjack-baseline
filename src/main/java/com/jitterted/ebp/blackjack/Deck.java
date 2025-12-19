@@ -1,4 +1,10 @@
 package com.jitterted.ebp.blackjack;
+// Deck is a nice PURE domain class
+// it has no dependencies on INFRA
+
+//how do you tell if a class is PURE domain?
+// if you are importing a library that deals with IO (like Ansi in the Card class)
+//
 
 import java.util.ArrayList;
 import java.util.Collections;
